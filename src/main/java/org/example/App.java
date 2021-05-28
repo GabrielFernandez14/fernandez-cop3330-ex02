@@ -1,3 +1,9 @@
+/* Gabriel Fernandez
+ * COP3330 - Summer CV01
+ * "Motivated" Practice Exercises
+ * Exercise 02 - Counting the Number of Characters
+ */
+
 package org.example;
 import java.util.Scanner;
 
