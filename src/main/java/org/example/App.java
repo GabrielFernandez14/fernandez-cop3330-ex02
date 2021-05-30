@@ -15,9 +15,7 @@ public class App
         // Prompt for user input and store in input
         System.out.println("What is the input string?");
         Scanner input = new Scanner(System.in);
-        // I'm sure I didn't have to store inside a String value, but
-        // I did anyways since I thought it would be easier
-        String word = input.next();
+        String word = input.nextLine();
 
         // Call for countCharacters function within print statement
         System.out.println(word + " has " + countCharacters(word) + " characters.");
@@ -28,7 +26,10 @@ public class App
         int charCounter = 0;
 
         for (int i = 0; i < word.length(); i++) {
-            charCounter++;
+            // Only increment charCounter if the current char is not a space
+            if(word.charAt(i) != ' ') {
+                charCounter++;
+            }
         }
 
         return charCounter;
