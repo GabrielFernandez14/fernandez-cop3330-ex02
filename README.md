@@ -1,2 +1,2 @@
 # fernandez-cop3330-ex02
-## Excercise 02
+## Exercise 02
