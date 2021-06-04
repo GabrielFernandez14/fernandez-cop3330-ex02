@@ -1,7 +1,8 @@
-/* Gabriel Fernandez
- * COP3330 - Summer CV01
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solutions
+ *  Copyright 2021 Gabriel Fernandez
  * "Motivated" Practice Exercises
- * Exercise 02 - Counting the Number of Characters
+ *  Exercise 02 - Counting the Number of Characters
  */
 
 package org.example;
